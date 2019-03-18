@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="81" id="E3L-5v-bIY" customClass="ExpenseDetailTableViewCell" customModule="ExpenseWise" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="81"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="E3L-5v-bIY" id="O4g-ck-eg9">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="80.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transportation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5hu-fq-3eS">
+                        <rect key="frame" x="15" y="10" width="71" height="12"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" red="0.50980392159999999" green="0.50980392159999999" blue="0.50980392159999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feb 21" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KLA-AH-xsk">
+                        <rect key="frame" x="25" y="58.5" width="32" height="12"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" red="0.50980392159999999" green="0.50980392159999999" blue="0.50980392159999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="COP 888.888.888" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ohr-Wv-eAc">
+                        <rect key="frame" x="227" y="30.5" width="134" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.10980392160000001" green="0.23921568630000001" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" text="Uber Aeropuerto" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PFi-EK-EoA">
+                        <rect key="frame" x="25" y="24" width="109" height="32.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.10980392160000001" green="0.23921568630000001" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="KLA-AH-xsk" firstAttribute="top" secondItem="PFi-EK-EoA" secondAttribute="bottom" constant="2" id="1GL-br-Sh1"/>
+                    <constraint firstItem="5hu-fq-3eS" firstAttribute="top" secondItem="O4g-ck-eg9" secondAttribute="top" constant="10" id="7bp-Rw-54b"/>
+                    <constraint firstItem="PFi-EK-EoA" firstAttribute="leading" secondItem="O4g-ck-eg9" secondAttribute="leading" constant="25" id="Bvd-sZ-dyQ"/>
+                    <constraint firstItem="ohr-Wv-eAc" firstAttribute="leading" secondItem="PFi-EK-EoA" secondAttribute="trailing" constant="8" id="ERw-Ti-Tw1"/>
+                    <constraint firstAttribute="bottom" secondItem="KLA-AH-xsk" secondAttribute="bottom" constant="10" id="Ol6-wU-NPt"/>
+                    <constraint firstItem="5hu-fq-3eS" firstAttribute="leading" secondItem="O4g-ck-eg9" secondAttribute="leading" constant="15" id="Z0R-Z9-tav"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="KLA-AH-xsk" secondAttribute="trailing" constant="15" id="Z0j-Xo-AiU"/>
+                    <constraint firstItem="KLA-AH-xsk" firstAttribute="leading" secondItem="O4g-ck-eg9" secondAttribute="leading" constant="25" id="agz-1M-EVq"/>
+                    <constraint firstAttribute="trailing" secondItem="ohr-Wv-eAc" secondAttribute="trailing" constant="15" id="bgZ-ZG-WlG"/>
+                    <constraint firstItem="ohr-Wv-eAc" firstAttribute="centerY" secondItem="O4g-ck-eg9" secondAttribute="centerY" id="dbL-He-PDX"/>
+                    <constraint firstItem="PFi-EK-EoA" firstAttribute="centerY" secondItem="O4g-ck-eg9" secondAttribute="centerY" id="dqe-zu-wlZ"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="5hu-fq-3eS" secondAttribute="trailing" constant="20" symbolic="YES" id="euH-Hh-hXY"/>
+                    <constraint firstItem="PFi-EK-EoA" firstAttribute="top" secondItem="5hu-fq-3eS" secondAttribute="bottom" constant="2" id="rcb-Kp-3Ig"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="categoryLabel" destination="5hu-fq-3eS" id="cMz-iI-6Vj"/>
+                <outlet property="dateLabel" destination="KLA-AH-xsk" id="cbp-sw-a0g"/>
+                <outlet property="descriptionLabel" destination="PFi-EK-EoA" id="0eq-Yv-J6d"/>
+                <outlet property="valueLabel" destination="ohr-Wv-eAc" id="aRa-VM-MiY"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

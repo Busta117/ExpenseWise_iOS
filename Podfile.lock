@@ -1,0 +1,58 @@
+PODS:
+  - DateToolsSwift (4.0.0)
+  - Realm (3.13.1):
+    - Realm/Headers (= 3.13.1)
+  - Realm/Headers (3.13.1)
+  - RealmSwift (3.13.1):
+    - Realm (= 3.13.1)
+  - RxAtomic (4.4.0)
+  - RxCocoa (4.4.0):
+    - RxSwift (~> 4.0)
+  - RxRealm (0.7.6):
+    - RealmSwift (~> 3.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.4.0):
+    - RxAtomic (~> 4.4)
+  - SBPickerSelector (2.0.1)
+  - SVProgressHUD (2.2.5)
+  - SwiftFormat/CLI (0.38.0)
+
+DEPENDENCIES:
+  - DateToolsSwift
+  - Realm
+  - RealmSwift
+  - RxCocoa
+  - RxRealm
+  - RxSwift
+  - SBPickerSelector
+  - SVProgressHUD
+  - SwiftFormat/CLI
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DateToolsSwift
+    - Realm
+    - RealmSwift
+    - RxAtomic
+    - RxCocoa
+    - RxRealm
+    - RxSwift
+    - SBPickerSelector
+    - SVProgressHUD
+    - SwiftFormat
+
+SPEC CHECKSUMS:
+  DateToolsSwift: 875d97ff9e3a5d54abdd67a269b3f51c757b71ab
+  Realm: 50071da38fe079e0735e47c9f2eae738c68c5996
+  RealmSwift: 8a1e6a02b7a08cd17a31e3115143fb69fe5f3fb9
+  RxAtomic: eacf60db868c96bfd63320e28619fe29c179656f
+  RxCocoa: df63ebf7b9a70d6b4eeea407ed5dd4efc8979749
+  RxRealm: 5379eddd74f8d617ca7681d1f8d144af25b432b0
+  RxSwift: 5976ecd04fc2fefd648827c23de5e11157faa973
+  SBPickerSelector: 73af23c58a1401799737793da244cdb52a33f3b0
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftFormat: 0762bc591b9f6e8efa99402e714a03ede5151656
+
+PODFILE CHECKSUM: 02b474b87c3e329dabbf3284260ef901480f519e
+
+COCOAPODS: 1.5.3
